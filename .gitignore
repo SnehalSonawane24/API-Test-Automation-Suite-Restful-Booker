@@ -1,0 +1,50 @@
+# === Eclipse Specific ===
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.factorypath
+# Optional: some prefer to keep these to share project config, 
+# but they often cause conflicts in teams.
+.project
+.classpath
+
+# === Maven Specific ===
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# === Gradle Specific (if using) ===
+.gradle/
+build/
+
+# === Selenium/Automation Specific ===
+# Ignore downloaded webdrivers (chromedriver.exe, geckodriver, etc.)
+drivers/
+*.exe
+*.dll
+*.log
+
+# Test reports and screenshots
+test-output/
+test-reports/
+screenshots/
+ExtentReports/
+*.log
+
+# === OS Specific ===
+.DS_Store
+Thumbs.db
